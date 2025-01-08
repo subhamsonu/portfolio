@@ -11,30 +11,31 @@ function Navbar() {
 
             <li>
                 <span className="text-green-200 font-semibold">01.</span>
-                <a href='#' className='hover:text-blue-500 mr-0.5'> About</a>       
+                <a href='#' className='hover:text-blue-500'> About</a>       
             </li>
 
             <li>
                 <span className="text-green-200 font-semibold">02.</span>
-                <a href='#' className='hover:text-blue-500 mr-0.5'> Experience</a>       
+                <a href='#' className='hover:text-blue-500'> Experience</a>       
             </li>
 
             <li>
                 <span className="text-green-200 font-semibold">03.</span>
-                <a href='#' className='hover:text-blue-500 mr-0.5'> Work</a>       
+                <a href='#' className='hover:text-blue-500'> Work</a>       
             </li>
 
             <li>
                 <span className="text-green-200 font-semibold">04.</span>
-                <a href='#' className='hover:text-blue-500 mr-0.5'> Contact</a>       
+                <a href='#' className='hover:text-blue-500'> Contact</a>       
             </li>
             <li>
-                
+                <a href='#' className= 'bg-teal-500 hover:bg-blue-500 text-white px-4 py-2 rounded-lg '>
+                    Resume
+                </a>
             </li>
 
         </ul>
     </nav>
-
   )
 }
 
